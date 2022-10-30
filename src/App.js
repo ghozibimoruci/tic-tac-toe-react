@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import TicTacToe from './pages/tic-tac-toe/TicTactToe';
+// import TicTacToe from './pages/tic-tac-toe/TicTactToe';
+import TicTacToeBlack from './pages/tic-tac-toe-black/TicTactToeBlack';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <TicTacToe/>
+      {/* <TicTacToe/> */}
+      <TicTacToeBlack/>
     </div>
   );
 }

@@ -1,0 +1,87 @@
+.tic-tac-page{
+    display: block;
+    padding: 30px 20px;
+    background-color: #252525;
+}
+.tic-tac-title{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #E0E0E0;
+}
+.tic-tac-label{
+    display: block;
+    font-weight: 600;
+    /* color: #B00225; */
+    color: #E0E0E0;
+}
+.tic-tac-label.center{
+    text-align: center;
+}
+.game-wrapper{
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+.tic-tac-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tic-tac-row.no-0{
+    margin-top: 20px;
+}
+.tic-tac-column{
+    width: 30px;
+    height: 30px;
+    line-height: 10px;
+    font-size: 30px;
+    color: #E0E0E0;
+}
+.tic-tac-column.row-0,
+.tic-tac-column.row-1{
+    border-bottom: solid #E0E0E0;
+}
+.tic-tac-column.column-0,
+.tic-tac-column.column-1{
+    border-right: solid #E0E0E0;
+}
+.game-button{
+    outline: none;
+    border: none;
+    background: none;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+}
+.game-text{
+    line-height: 26px;
+}
+.game-text.circle{
+    font-size: 27px;
+}
+.game-text.cross{
+    font-size: 30px;
+}
+.point-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.point-text{
+    color: #E0E0E0;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 20px 0;
+}
+.reset-game{
+    margin-top: 20px;
+    background-color: #B00225;
+    border: solid 2px #B00225;
+    border-radius: 8px;
+    color: #E0E0E0;
+    font-weight: 600;
+    height: 35px;
+}
