@@ -1,0 +1,35 @@
+.company-tower-wrapper{
+    aspect-ratio: 10 / 13;
+    position: relative;
+    width: 100%;
+}
+.company-tower-wrapper>img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+.company-tower-wrapper>.trapezium{
+    bottom: 0;
+}
+.paragraph-wrapper{
+    position: absolute;
+    bottom: 0;
+}
+.text-wrapper{
+    margin-bottom: 16%;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: white;
+    text-align: start;
+}
+.text-wrapper>.title-wrapper{
+    font-size: 9vw;
+    line-height: 9vw;
+    width: 54vw;
+    font-weight: 600;
+    margin-bottom: 3vw;
+}
+.text-wrapper>.contain-wrapper{
+    font-size: 4vw;
+    line-height: 5vw;
+}

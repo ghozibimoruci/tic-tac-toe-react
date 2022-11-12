@@ -1,0 +1,48 @@
+.salt-company-name{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 16px;
+}
+.company-logo-wrapper{
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
+img.salt-company-logo1, img.salt-company-logo2{
+    position: absolute;
+    width: 95%;
+    height: 85%;
+}
+img.salt-company-logo1{
+    left: 0;
+    top: 0;
+}
+img.salt-company-logo2{
+    right: 0;
+    bottom: 0;
+}
+.salt-company-text{
+    color: #4097DB;
+    margin: 0 10px;
+    font-weight: 600;
+    font-size: 40px;
+    width: calc(100% - 140px);
+    text-align: start;
+    font-family: sans-serif;
+}
+.salt-dropdown-menu{
+    width: 60px;
+    height: 60px;
+}
+.dropdown-wrapper{
+    height: 24px;
+    width: 25px;
+    margin: 18px auto;
+}
+.dropdown-line{
+    margin: 5px 0;
+    border: solid 2px;
+    border-radius: 8px;
+    background-color: black;
+}

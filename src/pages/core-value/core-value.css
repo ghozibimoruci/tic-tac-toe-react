@@ -1,0 +1,56 @@
+.core-value-wrapper{
+    padding: 0 7%;
+}
+.values-title{
+    font-size: 9vw;
+    line-height: 9vw;
+    color: #029FE4;
+    font-weight: 600;
+    margin-bottom: 5vw;
+}
+.value-intoduction{
+    white-space: break-spaces;
+    text-align: start;
+    margin-bottom: 10%;
+}
+.value-intoduction, .value-text-contain{
+    font-size: 4vw;
+    line-height: 5vw;
+    color: #777777;
+}
+.point-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.strip-icon{
+    width: 7%;
+    margin: 0 3% 0 0;
+}
+.the-strip{
+    border-top: solid 2px #747474;
+    width: 100%;
+    margin-top: 45%;
+}
+.value-text-wrapper{
+    text-align: start;
+    width: 90%;
+}
+.value-text-title{
+    font-size: 6vw;
+    line-height: 5vw;
+    margin-bottom: 3vw;
+    font-weight: 600;
+}
+.value-text-contain{
+    margin-bottom: 6vw;
+}
+.design-wrapper{
+    overflow: hidden;
+    padding-left: 24vw;
+}
+.company_design{
+    width: 127%;
+    aspect-ratio: 127 / 75;
+}

@@ -1,7 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
 // import TicTacToe from './pages/tic-tac-toe/TicTactToe';
-import TicTacToeBlack from './pages/tic-tac-toe-black/TicTactToeBlack';
+// import TicTacToeBlack from './pages/tic-tac-toe-black/TicTactToeBlack';
+import { CompanyTower } from './pages/company-tower/company-tower';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
         </a>
       </header> */}
       {/* <TicTacToe/> */}
-      <TicTacToeBlack/>
+      {/* <TicTacToeBlack/> */}
+      <CompanyTower/>
     </div>
   );
 }

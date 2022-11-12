@@ -1,0 +1,76 @@
+.footer-wrapper{
+    aspect-ratio: 70 / 109;
+    padding: 10vw 7vw 0;
+    position: relative;
+}
+.footer-title{
+    text-align: start;
+    margin-bottom: 8vw;
+}
+.company-white-logo{
+    width: 54vw;
+}
+.footer-white-wrapper{
+    padding: 6vw 6vw 8vw;
+    background: #FFFFFF;
+}
+.dept-name-wrapper{
+    padding: 2vw 4vw;
+    width: calc(100% - 8vw);
+    border: solid 0.25vw #00000030;
+    border-radius: 0.75vw;
+    color: #00537C;
+    font-size: 3.25vw;
+    font-weight: 800;
+    text-align: start;
+    margin-bottom: 6.5vw;
+}
+.dept-address-wrapper{
+    color: #25A0D8;
+    font-size: 3vw;
+    white-space: break-spaces;
+    text-align: start;
+}
+.goto-link{
+    margin-top: 8vw;
+    text-align: start;
+    font-size: 3vw;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.dark-blue-wrapper{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 60.8vw;
+    z-index: -1;
+}
+.triangle-dark{
+    border-bottom: solid 48.8vw #08385F;
+    border-right: solid 100vw transparent;
+}
+.rectangle-dark{
+    height: 12vw;
+    z-index: 1;
+    background: #08385F;
+}
+.triangle-light{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 60.8vw;
+    border-bottom: solid 48.8vw #14619D;
+    border-left: solid 100vw transparent;
+    z-index: -1;
+}
+.rectangle-wrapper{
+    background: #07477A;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -2;
+}

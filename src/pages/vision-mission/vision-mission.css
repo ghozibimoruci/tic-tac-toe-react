@@ -1,0 +1,79 @@
+#vision-mission-wrapper{
+    scroll-behavior: smooth;
+}
+.vision-mission-wrapper{
+    width: 100%;
+    aspect-ratio: 1 /1;
+}
+.vis-miss-wrapper{
+    margin: 11% 9% 12%;
+    text-align: start;
+    position: relative;
+    height: 77%;
+    transition: ease-in-out 0.3s;
+}
+.vis-miss-wrapper.hidden{
+    opacity: 0;
+}
+.vismis-title-wrapper{
+    font-size: 9vw;
+    line-height: 9vw;
+    color: #029FE4;
+    font-weight: 600;
+    margin-bottom: 5vw;
+}
+.sub-title-wrapper{
+    font-size: 4.5vw;
+    line-height: 5vw;
+    margin-bottom: 2vw;
+    font-weight: 600;
+}
+.container-wrapper{
+    font-size: 3.5vw;
+    line-height: 5vw;
+    color: #777777;
+}
+.button-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 0;
+    position: absolute;
+    align-items: center;
+    width: 100%;
+}
+.index-wrapper{
+    font-family: system-ui;
+    width: 50%;
+}
+.active-index{
+    font-size: 8vw;
+    font-weight: 600;
+    transition: ease-in-out 0.3s;
+}
+.slice-icon{
+    font-size: 8vw;
+    color: #C0C0C0;
+}
+.max-index{
+    font-size: 5vw;
+    color: #C0C0C0;
+}
+.navigation-button-wrapper{
+    width: 50%;
+    text-align: end;
+}
+.index-button{
+    width: 11vw;
+    height: 10vw;
+    border: none;
+    font-size: 7vw;
+    color: #FFFFFF;
+    align-content: center;
+    background: #1BA0E1;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.index-button:disabled{
+    color: #B6B6B6;
+    background: #F1F1F1;
+}
